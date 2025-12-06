@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <title>ALEGYAT</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            padding: 20px;
+        }
+        .prodotto {
+            border: 1px solid #ccc;
+            padding: 10px;
+            border-radius: 5px;
+            margin-bottom: 10px;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Catalogo Prodotti</h1>
+    <div id="lista-prodotti">Caricamento...</div>
+
+    <script>
+        // Legge il file prodotti.json
+        fetch("Json/Json.json")
+          .then(response => response.json())
+          .then(dati => {
+            const contenitore = document.getElementById("lista-prodotti");
+            contenitore.innerHTML = ""; // pulisce "Caricamento..."
+
+            dati.forEach(prodotto => {
+              const div = document.createElement("div");
+              div.classList.add("prodotto");
+
+              div.innerHTML = `
+                <h3>${prodotto.nome}</h3>
+                <p>Prezzo: €${prodotto.prezzo}</p>
+                <p>Categoria: ${prodotto.categoria}</p>
+              `;
+              contenitore.appendChild(div);
+            });
+          })
+          .catch(error => {
+            document.getElementById("lista-prodotti").innerHTML = "Errore nel caricamento!";
+            console.error("Errore:", error);
+          });
+    </script>
+
+</body>
+</html>
