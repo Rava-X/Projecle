@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8">
+  <title>Projecle</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="app">
+  <header class="header">
+    <div class="brand">
+      <div class="logo">🎯</div>
+      <div>
+        <h1>Projecle</h1>
+        <p class="subtitle">Indovina la persona</p>
+      </div>
+    </div>
+
+    <div class="right-ui">
+      <div id="tries" class="tries">Tentativi: 6</div>
+
+      <label class="toggle">
+        <input type="checkbox" id="chaosToggle" checked>
+        <span></span>
+        Chaos
+      </label>
+    </div>
+  </header>
+
+  <!-- AUTOCOMPLETE CUSTOM -->
+  <div class="input-box">
+    <div class="autocomplete">
+      <input id="guess" placeholder="Scrivi un nome..." autocomplete="off">
+      <div id="autocomplete-list" class="autocomplete-list"></div>
+    </div>
+    <button id="guessBtn">Invia</button>
+  </div>
+
+  <section class="board">
+    <table>
+      <thead>
+        <tr id="headers"></tr>
+      </thead>
+      <tbody id="rows"></tbody>
+    </table>
+  </section>
+
+  <p id="feedback"></p>
+</div>
+
+<!-- brainrot container -->
+<div id="brainrot-container"></div>
+
+<script src="script.js"></script>
+</body>
+</html>
