@@ -1,0 +1,176 @@
+:root{
+  --bg:#0b1020;
+  --panel:#0e1428;
+  --stroke:#1f2a44;
+  --ink:#e7ecf5;
+  --muted:#9aa4b2;
+  --ok:#16351a;
+  --err:#2a1414;
+  --accent:#22c55e;
+  --hover:#1e293b;
+}
+
+*{box-sizing:border-box}
+
+body{
+  margin:0;
+  min-height:100vh;
+  background:radial-gradient(900px 500px at 20% -10%,#17203b,transparent),var(--bg);
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  font-family:Inter,Arial,sans-serif;
+  color:var(--ink);
+}
+
+.app{
+  width:95%;
+  max-width:1200px;
+  background:var(--panel);
+  border:1px solid var(--stroke);
+  border-radius:20px;
+  padding:24px;
+  box-shadow:0 30px 80px rgba(0,0,0,.6);
+  transition:transform .2s;
+}
+
+.header{
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+  margin-bottom:16px;
+}
+
+.brand{display:flex;gap:12px;align-items:center}
+.logo{font-size:28px}
+.subtitle{margin:0;color:var(--muted)}
+
+.right-ui{display:flex;gap:18px;align-items:center}
+.tries{font-weight:bold;color:#ffd166}
+
+.toggle{display:flex;gap:8px;align-items:center;cursor:pointer}
+.toggle input{display:none}
+.toggle span{
+  width:36px;height:20px;background:#444;border-radius:20px;position:relative
+}
+.toggle span::after{
+  content:"";position:absolute;top:2px;left:2px;width:16px;height:16px;
+  background:white;border-radius:50%;transition:.2s
+}
+.toggle input:checked + span{background:var(--accent)}
+.toggle input:checked + span::after{transform:translateX(16px)}
+
+.input-box{display:flex;gap:10px;margin-bottom:18px}
+.autocomplete{position:relative;flex:1}
+.autocomplete input{
+  width:100%;
+  padding:14px;
+  border-radius:14px;
+  border:1px solid var(--stroke);
+  background:#0c1325;
+  color:white;
+  font-size:16px;
+  outline:none;
+}
+
+.autocomplete-list{
+  position:absolute;
+  top:110%;
+  left:0;
+  right:0;
+  background:#0c1325;
+  border:1px solid var(--stroke);
+  border-radius:14px;
+  max-height:240px;
+  overflow-y:auto;
+  z-index:100;
+  display:none;
+}
+
+.autocomplete-item{padding:12px 14px;cursor:pointer;transition:.15s}
+.autocomplete-item:hover{background:var(--hover)}
+
+.input-box button{
+  padding:14px 20px;
+  border-radius:14px;
+  border:none;
+  background:var(--accent);
+  font-weight:bold;
+  cursor:pointer;
+}
+
+.board{
+  border:1px solid var(--stroke);
+  border-radius:16px;
+  overflow:hidden;
+}
+table{width:100%;border-collapse:collapse}
+th,td{
+  padding:12px 8px;
+  text-align:center;
+  border-bottom:1px solid var(--stroke);
+  text-transform: capitalize;
+}
+
+/* ===== STILI FOTO ===== */
+.photo-box {
+  width: 50px;
+  height: 50px;
+  margin: 0 auto;
+  border-radius: 8px;
+  overflow: hidden;
+  border: 2px solid transparent;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.photo-box.ok {
+  border-color: var(--accent);
+  background: var(--ok);
+}
+
+.photo-box.err {
+  border-color: #ef4444;
+  background: var(--err);
+}
+
+.photo-box img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.photo-box:not(.ok):not(.err) {
+  border-color: var(--stroke);
+  background: rgba(255, 255, 255, 0.05);
+}
+
+/* Stile per quando non c'è foto */
+.no-photo {
+  color: var(--muted);
+  font-size: 12px;
+  font-weight: normal;
+}
+
+/* Stile per le celle con foto */
+td:first-child {
+  padding: 8px 4px;
+}
+
+.badge{
+  display:inline-flex;
+  padding:8px 12px;
+  border-radius:999px;
+  font-weight:bold;
+  font-size: 14px;
+}
+.ok{background:var(--ok)}
+.err{background:var(--err)}
+
+/* Stili per badge */
+.badge.ok, .badge.err {
+  white-space: nowrap;
+  min-width: 60px;
+  justify-content: center;
+}

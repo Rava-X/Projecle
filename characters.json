@@ -1,0 +1,204 @@
+
+[
+  {
+    "name": "Leoni Andrea",
+    "genere": "Maschio",
+    "foto": "immagini/Andrea.jpeg",
+    "annoNascita": 2007,
+    "coloreCapelli": "Castani",
+    "professione": "Studente",
+    "residenza": "Valle del lujo",
+    "fratelliSorelle": "Sì"
+  },
+
+  {
+    "name": "Bastioni Simone",
+    "genere": "Maschio",
+    "foto": "immagini/Simo.jpeg",
+    "annoNascita": 2006,
+    "coloreCapelli": "Castani",
+    "professione": "Studente",
+    "residenza": "Alta val Seriana",
+    "fratelliSorelle": "Sì"
+  },
+
+  {
+    "name": "Ravasio Alessandro",
+    "genere": "Maschio",
+    "foto": "immagini/Ale.jpeg",
+    "annoNascita": 2007,
+    "coloreCapelli": "Castani e biondi",
+    "professione": "Studente",
+    "residenza": "Val Gandino",
+    "fratelliSorelle": "Sì"
+  },
+  
+
+  {
+    "name": "Gusmini Marco",
+    "genere": "Maschio",
+    "foto": "immagini/Gus.jpeg",
+    "annoNascita": 2007,
+    "coloreCapelli": "Castani e biondi",
+    "professione": "Studente",
+    "residenza": "Val Gandino",
+    "fratelliSorelle": "Sì"
+  },
+
+
+  {
+    "name": "Franchina Matteo",
+    "genere": "Maschio",
+    "foto": "immagini/Frank.jpeg",
+    "annoNascita": 2008,
+    "coloreCapelli": "Castani",
+    "professione": "Studente",
+    "residenza": "Val Gandino",
+    "fratelliSorelle": "Sì"
+  },
+
+
+  {
+    "name": "Baldasarri Bruno",
+    "genere": "Maschio",
+    "foto": "immagini/Bruno.jpeg",
+    "annoNascita": 2008,
+    "coloreCapelli": "Neri",
+    "professione": "Studente",
+    "residenza": "Valle del lujo",
+    "fratelliSorelle": "Sì"
+  },
+
+    {
+    "name": "Baumgartner Kristof",
+    "genere": "Maschio",
+    "foto": "immagini/Kristof.jpeg",
+    "annoNascita": 2006,
+    "coloreCapelli": "Castani",
+    "professione": "Studente",
+    "residenza": "Media Val Seriana",
+    "fratelliSorelle": "No"
+  },
+
+      {
+    "name": "Giovanni Bugada",
+    "genere": "Maschio",
+    "foto": "immagini/Bugada.jpeg",
+    "annoNascita": 2007,
+    "coloreCapelli": "Biondi",
+    "professione": "Studente",
+    "residenza": "Media Val Seriana",
+    "fratelliSorelle": "No"
+  },
+
+    {
+    "name": "Carrara Davide",
+    "genere": "Maschio",
+    "foto": "immagini/Pewe.jpeg",
+    "annoNascita": 2007,
+    "coloreCapelli": "Neri",
+    "professione": "Studente",
+    "residenza": "Bho",
+    "fratelliSorelle": "Sì"
+  },
+
+      {
+    "name": "Cannatà Nicola",
+    "genere": "Maschio",
+    "foto": "immagini/Kanna.jpeg",
+    "annoNascita": 2007,
+    "coloreCapelli": "Neri",
+    "professione": "Studente",
+    "residenza": "Val Gandino",
+    "fratelliSorelle": "Sì"
+  },
+
+      {
+    "name": "Cominelli Giorgio",
+    "genere": "Maschio",
+    "foto": "immagini/Giorgio.jpeg",
+    "annoNascita": 2007,
+    "coloreCapelli": "Castani",
+    "professione": "Studente",
+    "residenza": "Alta Val Seriana",
+    "fratelliSorelle": "Sì"
+  },
+
+      {
+    "name": "Fanti Manuel",
+    "genere": "Maschio",
+    "foto": "immagini/Manuel.jpeg",
+    "annoNascita": 2007,
+    "coloreCapelli": "Neri",
+    "professione": "Studente",
+    "residenza": "Alta Val Seriana",
+    "fratelliSorelle": "No"
+  },
+
+      {
+    "name": "Gentilcore Lorenzo",
+    "genere": "Maschio",
+    "foto": "immagini/Gentil.jpeg",
+    "annoNascita": 2007,
+    "coloreCapelli": "Neri",
+    "professione": "Studente",
+    "residenza": "Alta Val Seriana",
+    "fratelliSorelle": "Bho"
+  },
+
+      {
+    "name": "Kebe Marema",
+    "genere": "Femmina",
+    "foto": "Marema",
+    "annoNascita": 2007,
+    "coloreCapelli": "Neri",
+    "professione": "Studente",
+    "residenza": "Alta Val Seriana",
+    "fratelliSorelle": "Sì"
+  },
+
+      {
+    "name": "Milesi Filippo",
+    "genere": "Maschio",
+    "foto": "immagini/Pippo.jpeg",
+    "annoNascita": 2007,
+    "coloreCapelli": "Neri",
+    "professione": "Studente",
+    "residenza": "Alta Val Seriana",
+    "fratelliSorelle": "Sì"
+  },
+
+      {
+    "name": "Scainelli Simone",
+    "genere": "Maschio",
+    "foto": "immagini/Scainelli.jpeg",
+    "annoNascita": 2007,
+    "coloreCapelli": "Castani",
+    "professione": "Studente",
+    "residenza": "Alta Val Seriana",
+    "fratelliSorelle": "Si"
+  },
+
+      {
+    "name": "Verzeroli Mirko",
+    "genere": "Maschio",
+    "foto": "immagini/Mirko.jpeg",
+    "annoNascita": 2006,
+    "coloreCapelli": "Castani e biondi",
+    "professione": "Studente",
+    "residenza": "Alta Val Seriana",
+    "fratelliSorelle": "SI"
+  },
+
+      {
+    "name": "Zanibelli Michele",
+    "genere": "Maschio",
+    "foto": "immagini/Zanzo.jpeg",
+    "annoNascita": 2007,
+    "coloreCapelli": "Castani e biondi",
+    "professione": "Studente",
+    "residenza": "Valle del lujo",
+    "fratelliSorelle": "si"
+  }
+
+] 
